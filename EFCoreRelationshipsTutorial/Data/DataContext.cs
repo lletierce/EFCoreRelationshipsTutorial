@@ -4,6 +4,8 @@ namespace EFCoreRelationshipsTutorial.Data
 {
     public class DataContext : DbContext
     {
+
+        // This is a test
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
